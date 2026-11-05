@@ -1,12 +1,15 @@
 {
-  "appId": "com.atlasai.app",
+  "appId": "com.atlasai.atlasai",
   "appName": "Atlas AI",
   "webDir": "www",
   "server": {
     "url": "https://intuitive-web-tools.lovable.app",
     "cleartext": false,
     "errorPath": "index.html",
-    "allowNavigation": ["intuitive-web-tools.lovable.app", "*.lovable.app", "*.supabase.co", "*.lovable.dev"]
+    "allowNavigation": [
+      "intuitive-web-tools.lovable.app",
+      "*.supabase.co"
+    ]
   },
   "android": {
     "backgroundColor": "#cdd7e1"
