@@ -1,0 +1,28 @@
+{
+  "appId": "com.atlasai.app",
+  "appName": "Atlas AI",
+  "webDir": "www",
+  "server": {
+    "url": "https://intuitive-web-tools.lovable.app",
+    "cleartext": false,
+    "errorPath": "index.html",
+    "allowNavigation": ["intuitive-web-tools.lovable.app", "*.lovable.app", "*.supabase.co", "*.lovable.dev"]
+  },
+  "android": {
+    "backgroundColor": "#cdd7e1"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "launchAutoHide": true,
+      "backgroundColor": "#cdd7e1",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "backgroundColor": "#cdd7e1",
+      "style": "LIGHT",
+      "overlaysWebView": false
+    }
+  }
+}
