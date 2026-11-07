@@ -35,6 +35,8 @@ public class MainActivity extends BridgeActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+        // Odak modu köprüsü (window.AtlasNative) ilk sayfa yüklenmeden önce eklensin.
+        registerPlugin(FocusShieldPlugin.class);
         super.onCreate(savedInstanceState);
         bridge.setWebViewClient(new BridgeWebViewClient(bridge) {
             @Override
